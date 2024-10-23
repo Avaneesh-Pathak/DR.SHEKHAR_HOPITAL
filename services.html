@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dr. SHEKHAR HOSPITAL - Our Services</title>
+    <link rel="shortcut icon" href="images/fevicon.ico.png" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/colors.css">
+    <link rel="stylesheet" href="css/versions.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <script src="js/modernizer.js"></script>
+    <style>
+        /* Custom Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f8f9fa;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #87CEEB;
+            /* Sky Blue */
+            padding: 15px 0;
+        }
+
+        header .navbar-brand {
+            font-size: 1.8em;
+            color: #fff;
+        }
+
+        .navbar-nav .nav-link {
+            color: #fff;
+            margin: 0 15px;
+            font-size: 1.1em;
+            transition: color 0.3s;
+        }
+
+        .navbar-nav .nav-link:hover {
+            color: #98FB98;
+            /* Light Green */
+        }
+
+        .hero-section {
+            background: linear-gradient(to right, #87CEEB, #98FB98);
+            color: #fff;
+            text-align: center;
+            padding: 80px 20px;
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        .hero-section h1 {
+            font-size: 3em;
+            margin: 0;
+            animation: slideIn 1s ease;
+        }
+
+        .hero-section p {
+            font-size: 1.5em;
+            margin-top: 10px;
+            animation: fadeInUp 1s ease;
+        }
+
+        .service-container {
+            width: 80%;
+            margin: 20px auto;
+            padding: 20px;
+            border-radius: 10px;
+            background-color: #fff;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        .service {
+            margin-bottom: 20px;
+            padding: 15px;
+            border-left: 5px solid #4CAF50;
+            background: linear-gradient(to right, #e0f7fa, #b2ebf2);
+            border-radius: 5px;
+            transition: transform 0.3s ease;
+        }
+
+        .service:hover {
+            transform: scale(1.02);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .service h3 {
+            color: #00796b;
+            margin-bottom: 10px;
+        }
+
+        footer {
+            background-color: #87CEEB;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            position: relative;
+        }
+
+        footer a {
+            color: #fff;
+            margin: 0 5px;
+        }
+
+        /* Keyframes for animations */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
+        }
+
+        @keyframes slideIn {
+            from {
+                transform: translateY(-20px);
+                opacity: 0;
+            }
+
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        @keyframes fadeInUp {
+            from {
+                transform: translateY(20px);
+                opacity: 0;
+            }
+
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <h1>Our Services</h1>
+        <p>Providing Comprehensive Healthcare Solutions</p>
+    </section>
+
+    <!-- Services Section -->
+    <section class="service-container">
+        <div class="service">
+            <h3>OPD (Outpatient Department)</h3>
+            <p>Our OPD provides essential healthcare services for patients who do not require hospitalization. Our
+                experienced medical professionals are available for consultations and routine check-ups.</p>
+        </div>
+
+        <div class="service">
+            <h3>IPD (Inpatient Department)</h3>
+            <p>The IPD is equipped with comfortable facilities for patients requiring overnight care, ensuring quality
+                treatment and support.</p>
+        </div>
+
+        <div class="service">
+            <h3>Emergency Services</h3>
+            <p>We offer 24/7 emergency services for critical situations, providing immediate care for all emergencies
+                with advanced medical equipment.</p>
+        </div>
+
+        <div class="service">
+            <h3>Pathology</h3>
+            <p>Our pathology department provides comprehensive diagnostic testing, ensuring accurate results to support
+                effective treatment planning.</p>
+        </div>
+
+        <div class="service">
+            <h3>ICU (Intensive Care Unit)</h3>
+            <p>The ICU is designed for critically ill patients who require constant monitoring and advanced medical
+                care, ensuring the highest level of treatment.</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 PMA Softwares. All Rights Reserved.</p>
+        <p>Follow us on:
+            <a href="#" class="text-decoration-none">Facebook</a>,
+            <a href="#" class="text-decoration-none">Twitter</a>,
+            <a href="#" class="text-decoration-none">Instagram</a>
+        </p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
